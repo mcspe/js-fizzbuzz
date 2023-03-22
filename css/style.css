@@ -5,7 +5,7 @@
 }
 
 .container{
-  width: 600px;
+  width: 800px;
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
@@ -15,11 +15,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border: 1px solid black;
 }
 
 .zz{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.fizz{
+  background-color: rgb(251, 113, 0);
+}
+
+.buzz{
+  background-color: rgb(21, 251, 0);
+}
+
+.fizzbuzz{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
   background-color: #f0f;
 }

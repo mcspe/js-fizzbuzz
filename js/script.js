@@ -12,12 +12,23 @@ for(let i=1; i<=100; i++){
     text = i;
     // box.append(text);
   } else{
+
+    box.classList.add('zz');
+    
     if(!(i % 3)){
-      text += 'Fizz';
+      box.classList.add('fizz');
+      text += 'Fizz ';
     } 
+
     if(!(i % 5)){
-      text += 'Buzz';
+      box.classList.add('buzz');
+      text += 'Buzz ';
     } 
+
+    if (!(i % 3) && !(i % 5)){
+      box.classList.add('fizzbuzz');
+    }
+
   }
 
   box.append(text);
