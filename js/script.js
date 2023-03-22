@@ -17,16 +17,12 @@ for(let i=1; i<=100; i++){
     
     if(!(i % 3)){
       box.classList.add('fizz');
-      text += 'Fizz ';
+      text += ' Fizz ';
     } 
 
     if(!(i % 5)){
       box.classList.add('buzz');
-      text += 'Buzz ';
-    } 
-
-    if (!(i % 3) && !(i % 5)){
-      box.classList.add('fizzbuzz');
+      text += ' Buzz ';
     }
 
   }
